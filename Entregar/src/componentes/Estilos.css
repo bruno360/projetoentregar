@@ -1,0 +1,263 @@
+.linha {
+    display: inline;
+}
+
+.centralizarAltura
+{
+    margin: auto 0;
+}
+
+.p25 {
+    width: 25%;
+    text-align: center;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.fonte_sizeCadastro {
+    font-size: 16px;
+}
+
+.midlle {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "." "." ".";
+}
+
+.fonte_ajuste {
+    font-size: 1.4vw;
+}
+
+.butaoCadastro {
+    float: right;
+    background-color: #158467;
+    border-radius: 11px;
+    margin-top: 10px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 10px 36px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #015847;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+}
+
+.butaoCadastro:hover {
+    background-color: #5cbf2a;
+}
+
+.butaoCadastro:active {
+    position: relative;
+    top: 1px;
+}
+
+.fonte {
+    font-family: Montserrat;
+}
+
+.noVisible {
+    display: none;
+}
+
+.Visable {
+    display: inline;
+}
+
+.textBotao {
+    font-size: 16px;
+    color: lightgrey;
+}
+
+td:hover
+{
+    background-color: rgba(95, 95, 95, 0.199);
+}
+
+.direita {
+    float: right;
+}
+
+.espacamento {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.botao {
+    background-color: #158467;
+    border-radius: 5px;
+    height: 40px;
+    width: 225px;
+    border-color: rgba(rgba(255, 0, 0, 0), green, blue, alpha);
+}
+
+.tamanho4Linhas1Coluna {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "." "." "." ".";
+}
+
+.tamanho2Linhas1Coluna {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "." ".";
+}
+
+.tamanho1Linhas3Coluna {
+    display: grid;
+    grid-template-columns: 1fr 0.02fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: ". . .";
+}
+
+.tamanho3Linhas1Coluna
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.25fr 1fr 0.25fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . .";
+  
+
+}
+
+.tamanho_input
+{
+    width: 100%;
+    height: 2vw;
+}
+
+.space
+{
+    width: 10px;
+}
+
+.corCaixa {
+    background-color: #F0F0EF;
+    border-radius: 5px;
+    height: 74%;
+    box-sizing: content-box;
+    padding: 4%;
+}
+
+.div_centralizar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+@media(max-width:400px) and (min-width:0px) {
+    .fonte_sizeCadastro {
+        font-size: 9px;
+    }
+    .div_centralizar {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .botao {
+        background-color: #158467;
+        border-radius: 5px;
+        height: 18px;
+        width: 100px;
+        border-color: rgba(rgba(255, 0, 0, 0), green, blue, alpha);
+    }
+
+    .textBotao {
+        font-size: 8px;
+        color: lightgrey;
+    }
+
+    .espacamento {
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+}
+
+@media(max-width:600px) and (min-width:400px) {
+    .espacamento {
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+    .botao {
+        background-color: #158467;
+        border-radius: 5px;
+        height: 20px;
+        width: 125px;
+        border-color: rgba(rgba(255, 0, 0, 0), green, blue, alpha);
+    }
+    .textBotao {
+        font-size: 10px;
+        color: lightgrey;
+    }
+    .fonte_sizeCadastro {
+        font-size: 12px;
+    }
+    .div_centralizar {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+}
+
+@media(max-width:800px) and (min-width:600px) 
+{
+    .div_centralizar {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .botao {
+        background-color: #158467;
+        border-radius: 5px;
+        height: 20px;
+        width: 125px;
+        border-color: rgba(rgba(255, 0, 0, 0), green, blue, alpha);
+    }
+
+    .textBotao {
+        font-size: 10px;
+        color: lightgrey;
+    }
+}
+
+@media(max-width:1200px) and (min-width:800px) 
+{
+    .div_centralizar {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+}

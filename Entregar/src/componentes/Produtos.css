@@ -1,0 +1,93 @@
+.titulo {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.tamanho100 {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.input50Fornecedores {
+    padding-left: 2px;
+}
+
+.tamanho50_2Colunas {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: ". .";
+}
+
+.tamanho1_2linhas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "." ".";
+    position: relative;
+}
+
+.tamanho50_4Colunas {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 2fr;
+    gap: 0px 0px;
+    grid-template-areas: ". .";
+}
+
+.iconeBotao {
+    background-color: rgba(245, 245, 220, 0);
+    border: none;
+}
+
+
+
+.direita {
+    float: right;
+}
+
+.espacamentoTopButtom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div_cadastro {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: #2e302f38;
+}
+
+
+
+.corCaixa {
+    background-color: #F0F0EF;
+    border-radius: 5px;
+    height: 70%;
+    box-sizing: content-box;
+    padding: 4%;
+}
+
+.corCaixa2 {
+    background-color: #F0F0EF;
+    border-radius: 5px;
+    height: 50%;
+    box-sizing: content-box;
+    padding: 4%;
+}
+
+.thead {
+    width: 100%;
+    font-size: 1.2vw;
+    font-weight: bold;
+    background-color: #CAFAED;
+}
+
+
+
+
